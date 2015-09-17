@@ -1,5 +1,5 @@
 ---
-title: "test"
+title: "Central Limit Therom"
 author: "Cody Frisby"
 date: "September 17, 2015"
 output: 
@@ -8,11 +8,16 @@ output:
 ---
 
 ```{r}
-summary(cars)
+exponential <- rexp(1000)
+CLT <- NULL
+for (i in 1 : 1000) CLT <- c(CLT, mean(rexp(40)))
+mean(exponential)
+mean(CLT)
 ```
 
-You can also embed plots, for example:
+Here's are the histograms of the two distributions:
 
 ```{r, echo=FALSE}
-plot(cars, col="black")
+hist(exponential, col = "green")
+hist(CLT, col="green")
 ```

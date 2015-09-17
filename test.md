@@ -1,22 +1,27 @@
-# test
+# Central Limit Therom
 Cody Frisby  
 September 17, 2015  
 
 
 ```r
-summary(cars)
+exponential <- rexp(1000)
+CLT <- NULL
+for (i in 1 : 1000) CLT <- c(CLT, mean(rexp(40)))
+mean(exponential)
 ```
 
 ```
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
+## [1] 1.056758
 ```
 
-You can also embed plots, for example:
+```r
+mean(CLT)
+```
 
-![](test_files/figure-html/unnamed-chunk-2-1.png) 
+```
+## [1] 0.9928821
+```
+
+Here's are the histograms of the two distributions:
+
+![](test_files/figure-html/unnamed-chunk-2-1.png) ![](test_files/figure-html/unnamed-chunk-2-2.png) 
