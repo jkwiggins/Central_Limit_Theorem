@@ -1,8 +1,8 @@
 ---
-title: "gittest"
+title: "Test for Github"
 author: "Cody Frisby"
 date: "September 17, 2015"
-output: pdf_document
+output: html_document
 ---
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
@@ -16,7 +16,7 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r, echo=FALSE}
-plot(cars, col=green)
+plot(cars, col="green")
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
