@@ -1,0 +1,18 @@
+---
+title: "test"
+author: "Cody Frisby"
+date: "September 17, 2015"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars, col="black")
+```
