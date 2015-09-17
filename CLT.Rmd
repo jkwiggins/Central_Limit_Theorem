@@ -15,7 +15,7 @@ mean(exponential)
 mean(CLT)
 ```
 
-Here's are the histograms of the two distributions:
+Here are the histograms of the two distributions:
 
 ```{r, echo=FALSE}
 hist(exponential, col = "green")
