@@ -1,6 +1,7 @@
 # Central Limit Therom
 Cody Frisby  
 September 17, 2015  
+Here's some R code to simulate the Central Limit Theorem
 
 
 ```r
@@ -11,7 +12,7 @@ mean(exponential)
 ```
 
 ```
-## [1] 0.989797
+## [1] 0.987516
 ```
 
 ```r
@@ -19,9 +20,9 @@ mean(CLT)
 ```
 
 ```
-## [1] 0.9932637
+## [1] 1.003391
 ```
 
-Here's are the histograms of the two distributions:
+Here are the histograms of the two distributions:
 
 ![](CLT_files/figure-html/unnamed-chunk-2-1.png) ![](CLT_files/figure-html/unnamed-chunk-2-2.png) 

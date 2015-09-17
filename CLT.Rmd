@@ -6,6 +6,7 @@ output:
   html_document: 
     keep_md: yes
 ---
+Here's some R code to simulate the Central Limit Theorem
 
 ```{r}
 exponential <- rexp(1000)
