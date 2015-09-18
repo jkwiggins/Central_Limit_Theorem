@@ -12,7 +12,7 @@ mean(exponential)
 ```
 
 ```
-## [1] 1.022436
+## [1] 1.030805
 ```
 The next step we are going to take 1000 samples of size 40 from our exponential data
 and then take the mean of each sample.  So in all we will have 1000 means 
@@ -21,19 +21,11 @@ of size n=40.  Then we look at the mean.
 ```r
 CLT <- NULL
 for (i in 1 : 1000) CLT <- c(CLT, mean(sample(exponential, 40, replace = TRUE)))
-mean(exponential)
-```
-
-```
-## [1] 1.022436
-```
-
-```r
 mean(CLT)
 ```
 
 ```
-## [1] 1.011788
+## [1] 1.028928
 ```
 
 Now let's look at the shape of the piles of these two distributions.
