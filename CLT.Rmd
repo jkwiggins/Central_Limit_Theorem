@@ -19,7 +19,7 @@ and then take the mean of each sample.  So in all we will have 1000 means
 of size n=40.  Then we look at the mean.
 ```{r}
 CLT <- NULL
-for (i in 1 : 1000) CLT <- c(CLT, mean(sample(exponential, 40, replace = TRUE)))
+for (i in 1 : 1000) CLT <- c(CLT, mean(sample(exponential, 40)))
 mean(CLT)
 ```
 
